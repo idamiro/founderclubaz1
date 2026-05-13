@@ -345,7 +345,19 @@ footer{border-top:1px solid var(--border);padding:4rem;}
       </div>
       <div class="form-group"><label>Email</label><input type="email" placeholder="email@sirket.az" required/></div>
       <div class="form-group"><label>Paket</label>
-        <select><option value="">Paket seçin</option><option>Silver</option><option>Gold</option><option>Platinum</option></select>
+        <select>
+  <option value="">Paket seçin</option>
+  <optgroup label="Üzvlük">
+    <option>Üzvlük — Silver (1800 AZN)</option>
+    <option>Üzvlük — Gold (2800 AZN)</option>
+    <option>Üzvlük — Platinum (5000 AZN)</option>
+  </optgroup>
+  <optgroup label="Beynəlxalq Üzvlük">
+    <option>Beynəlxalq — Silver (3000 USD)</option>
+    <option>Beynəlxalq — Gold (5000 USD)</option>
+    <option>Beynəlxalq — Platinum (12000 USD)</option>
+  </optgroup>
+</select>
       </div>
       <div class="form-group"><label>Mesaj</label><textarea placeholder="Özünüz haqqında qısaca yazın..."></textarea></div>
       <button type="submit" class="form-submit">Müraciət Göndər</button>
